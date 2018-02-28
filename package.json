@@ -1,0 +1,28 @@
+{
+  "name": "wdio-allure-test",
+  "version": "0.0.1",
+  "description": "Test code for wdio-allure-reporter",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "wdio": "^1.0.3",
+    "wdio-cucumber-framework": "^1.0.2",
+    "webdriverio": "^4.9.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.0.1",
+    "chromedriver": "^2.35.0",
+    "wdio-allure-reporter": "git+https://github.com/BorisOsipov/wdio-allure-reporter.git#e9ef42c52980",
+    "wdio-chromedriver-service": "^0.1.1",
+    "wdio-junit-reporter": "^0.3.1",
+    "wdio-spec-reporter": "^0.1.2"
+  }
+}
