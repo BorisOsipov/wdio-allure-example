@@ -1,6 +1,6 @@
 Feature: test
 
-  Scenario Outline: User Management Create users - basic fields
+  Scenario Outline: User Management Create users - basic fields <login> <passwd>
     When I create a user:
       | login             | <login>             |
       | passwd            | <passwd>            |
